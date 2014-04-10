@@ -92,8 +92,17 @@ html, body {
     font-size: 1550%;
     font-weight: bold;
 }
+.form-box{
+  width: 250px;
+  height: 100px;
+}
 #example2form{
     z-index:3;
+    display: none;
+}
+
+.form-box:hover #example2form{
+  display: block;
 }
 .form-show{
   display: block;
