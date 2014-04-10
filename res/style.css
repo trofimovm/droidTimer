@@ -1,0 +1,133 @@
+html, body {
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+label {
+    display: inline-block;
+    *display:inline;
+    zoom:1;
+    width: 30px;
+}
+input[type=button] {
+    padding: 4px 10px;
+    margin: 5px 0 0;
+    font-size: 14px;
+    width: 200px;
+    color: #3a3a3a;
+}
+input[type=button]:hover {
+    cursor: pointer;
+    color: #000;
+}
+input[type=button].break {
+    margin-top: 15px;
+}
+a {
+    color: #444;
+    text-decoration: underline;
+}
+a:hover {
+    color: #000;
+    cursor: pointer;
+}
+p {
+}
+pre {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 490px;
+    padding: 5px;
+}
+div {
+    display: inline-block;
+    *display:inline;
+    zoom:1;
+    width: 300px;
+}
+.count {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 2px;
+}
+.galleryImages {
+    position: relative;
+    width: 200px;
+    height: 133px;
+    overflow: hidden;
+}
+.galleryImages img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#counter {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 2px;
+}
+.example-four {
+    display: inline-block;
+    *display:inline;zoom:1;
+    width: 250px;
+    margin-bottom: 10px;
+}
+#example2form, .example-three {
+    margin-bottom: 40px;
+}
+
+html, body { 
+
+}
+.countdown-box{
+    position:absolute;
+    top:40%;
+    left: 25%;
+    font-size: 1550%;
+    font-weight: bold;
+}
+#example2form{
+    z-index:3;
+}
+.form-show{
+  display: block;
+}
+.form-none{
+  display: none;
+}
+.control{
+  z-index: 3;
+  cursor: pointer;
+}
+.bg_image { 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 1; 
+  width: 100%; 
+  height: 100%; 
+}
+.scrollable { 
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.countdown-box{
+    margin: 0 auto;
+}
+.countdown-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Jason Chavannes" />
+    <title>Droidcon countdown</title>
+    
+    <link rel="stylesheet" href="res/style.css" />
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.timer.js"></script>
+    <script type="text/javascript" src="res/demo.js"></script>
+</head> 
+<body>
+    <div><img class="bg_image" src="res/img/bg.png"></div>
+    
+    <div class="scrollable">
+        <div class="countdown-box">
+             <center>
+                <div class="countdown-box-inner">
+                   <span id="countdown">24:00:00</span>
+                </div>
+            </center>
+        </div>
+            <form id="example2form">
+              <input type='button' value='Play/Pause' onclick='droidTimer.Timer.toggle();' />
+              <input type='button' value='Stop/Reset' onclick='droidTimer.resetCountdown();' />
+              
+              <br />
+              <input type='text' placeholder="HH" name='startHour' value='24' style='font-size:15px;width:25px;' />
+              <input type='text' placeholder="MM" name='startMin' value='00' style='font-size:15px;width:25px;' />
+              <input type='text' placeholder="SS" name='startSec' value='00' style='font-size:15px;width:25px;' />
+          </form>
+    </div>
+</body>
+</html>
