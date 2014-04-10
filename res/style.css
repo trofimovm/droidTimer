@@ -48,7 +48,6 @@ div {
     display: inline-block;
     *display:inline;
     zoom:1;
-    width: 300px;
 }
 .count {
     font-weight: bold;
@@ -88,9 +87,10 @@ html, body {
 .countdown-box{
     position:absolute;
     top:40%;
-    left: 25%;
-    font-size: 1550%;
+    font-size: 1850%;
     font-weight: bold;
+    width: 100%;
+    text-align: center;
 }
 .form-box{
   width: 250px;
@@ -132,11 +132,10 @@ html, body {
 }
 .countdown-box{
     margin: 0 auto;
+    text-align: center;
 }
 .countdown-box-inner{
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    width: 100%;
     margin: 0 auto;
+text-align: center
+  
 }
